@@ -1,4 +1,4 @@
-/* ESTILO VIOLETA - MODELO DE CAJA */
+/* ESTILO VIOLETA */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -23,7 +23,7 @@ main {
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400');
     background-size: cover;
     color: white;
-    /* MODELO DE CAJA */
+    
     padding: 30px; /* espacio interno */
     border: 10px solid #7b2cbf; /* borde */
     margin: 50px auto; /* espacio externo - centrado */
