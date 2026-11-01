@@ -1,0 +1,64 @@
+/* ESTILO VIOLETA - MODELO DE CAJA */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f0ff;
+}
+
+header {
+    background: linear-gradient(90deg, #5a189a, #9d4edd);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* ESTA ES LA CAJA DE TU TAREA - como en tu foto */
+.caja {
+    width: 400px;
+    background-color: #c77dff;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400');
+    background-size: cover;
+    color: white;
+    /* MODELO DE CAJA */
+    padding: 30px; /* espacio interno */
+    border: 10px solid #7b2cbf; /* borde */
+    margin: 50px auto; /* espacio externo - centrado */
+    border-radius: 15px;
+    text-align: center;
+}
+
+.caja button {
+    background: #5a189a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-top: 5px solid #9d4edd;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #7b2cbf;
+    margin-top: 40px;
+}
